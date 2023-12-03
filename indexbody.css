@@ -1,51 +1,116 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
 
-/* Style the header (h1) */
-h1 {
-    color: #333;
+#acc {
+    text-decoration: underline;
+    text-decoration-style: double;
+    background-color: #720e0e;
+    color: #f0e2e2;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-/* Style the main table */
+h1 {
+    text-decoration: overline underline;
+    color: #7c1b1b;
+    text-align: center;
+    margin: 30px 0;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the table cells */
+
 td, th {
-    padding: 15px;
+    padding: 20px;
     text-align: left;
 }
 
-/* Style the image */
+
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the horizontal lines */
+
 hr {
-    border: 1px solid #ddd;
+    border: none;
+    height: 4px;
+    background-color: #ddd;
+    margin: 20px 0;
 }
 
-/* Style the links */
+
 a {
-    color: #007BFF;
+    
+    color: #17375a;
     text-decoration: none;
 }
 
-/* Add some spacing around the links */
+
 h2 a {
     margin: 0 10px;
 }
 
-/* Hover effect for links */
+
 a:hover {
     text-decoration: underline;
+}
+
+
+.icon {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+
+.icon-home:before {
+    content: '\1F3E0'; 
+}
+
+.icon-heart:before {
+    content: '\2764'; 
+}
+#acc:before {
+    content: '\1F3E0'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+#par:before {
+    content: '\1F4D6'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#exp:before {
+    content: '\1F4BC'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#skill:before {
+    content: '\2699'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#cont:before {
+    content: '\2709'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
 }

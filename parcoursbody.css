@@ -1,0 +1,172 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#parcours {
+    text-decoration: underline;
+    text-decoration-style: double;
+    background-color: #720e0e;
+    color: #f0e2e2;
+}
+
+
+h1 {
+    text-decoration: overline underline;
+    color: #7c1b1b;
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+td, th {
+    padding: 20px;
+    text-align: left;
+}
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ol li {
+    margin-bottom: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+a {
+    color: #17375a;
+    text-decoration: none;
+    font-size: 25px; 
+    font-weight: bold; 
+}
+
+
+h3 a {
+    margin: 0 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#parcours {
+    text-decoration: underline;
+    text-decoration-style: double;
+    background-color: #720e0e;
+    color: #f0e2e2;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+h1 {
+    text-decoration: overline underline;
+    color: #7c1b1b;
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+td, th {
+    padding: 20px;
+    text-align: left;
+}
+
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ol li {
+    margin-bottom: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #17375a;
+    text-decoration: none;
+    
+}
+
+
+h3 a {
+    margin: 0 10px;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+#parcours:before {
+    content: '\1F4D6'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#ex:before {
+    content: '\1F4BC'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#com:before {
+    content: '\2699'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#con:before {
+    content: '\2709'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#ret:before {
+    content: '\21B6'; 
+    font-size: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

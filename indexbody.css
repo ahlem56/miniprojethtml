@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Style the header (h1) */
+h1 {
+    color: #333;
+}
+
+/* Style the main table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style the table cells */
+td, th {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the horizontal lines */
+hr {
+    border: 1px solid #ddd;
+}
+
+/* Style the links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Add some spacing around the links */
+h2 a {
+    margin: 0 10px;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
